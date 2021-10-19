@@ -1,0 +1,421 @@
+  389  cd day00
+  390  cd ex01
+  391  ./bonjour.sh
+  392  cd ex01
+  393  cd ..
+  394  cd ex3
+  395  cd ex03
+  396  ls
+  397  ./git_commit.sh
+  398  cd Documents
+  399  cd GitHub
+  400  cd day00
+  401  cd ..
+  402  cd day021
+  403  cd day01
+  404  cd ex04
+    1  ls
+    2  cd Desktop
+    3  cd day00-master
+    4  ls
+    5  mkdir rush00
+    6  cd rush00
+    7  ls
+    8  cd Day01-main
+    9  mv ex00 ..
+   10  mv ex02 ..
+   11  mv ex03 ..
+   12  mv README.md ..
+   13  ls
+   14  cd ..
+   15  ls
+   16  exit
+   17  ls
+   18  cd D
+   19  cd Desktop/
+   20  cd day00-master
+   21  cd ex00
+   22  ls
+   23  cd ..
+   24  ls
+   25  cd rush00
+   26  ls
+   27  cd ex00
+   28  ls
+   29  cat deposition_Joe_Rugiani.txt
+   30  sed '1d' deposition_Joe_Rugiani.txt
+   31  sed '1d' deposition_Joe_Rugiani.txt
+   32  sed '1d' deposition_Joe_Rugiani.txt
+   33  sed '1d' deposition_Joe_Rugiani.txt
+   34  sed '1d' deposition_Joe_Rugiani.txt
+   35  sed '1d' deposition_Joe_Rugiani.txt
+   36  sed
+   37  head deposition_Joe_Rugiani.txt
+   38  man head
+   39  head deposition_Joe_Rugiani.txt
+   40  head -n9
+   41  head -n9 deposition_Joe_Rugiani.txt
+   42  head -n9 deposition_Joe_Rugiani.txt
+   43  cat deposition_Joe_Rugiani.txt
+   44  history > magic.txt
+   45  s/motifcadillac/motifchevrolet deposition_Joe_Rugiani.txt
+   46  man sed
+   47  sed 's/cadillac/chevrolet/g' deposition_Joe_Rugiani.txt
+   48  sed 's/jaune/impala/g' deposition_Joe_Rugiani.txt
+   49  sed 's/cadillac/chevrolet/g' deposition_Joe_Rugiani.txt| sed 's/jaune/impala/g' deposition_Joe_Rugiani.txt
+   50  history >> magic.txt
+   51  cd ..
+   52  cd ex02
+   53  head tcpd_department.csv
+   54  awk
+   55  head -n 5
+   56  head -n5 tcpd_department.csv
+   57  head -95 tcpd_department.csv
+   58  awk
+   59  awk -F Officer tcpd_department.csv
+   60  awk -f Officer tcpd_department.csv
+   61  awk  Officer tcpd_department.csv
+   62  awk tcpd_department.csv
+   63  awk -F ',' '$2 == "Officer"'
+   64  awk -F ',' '$2 == "Officer"' tcpd_department.csv
+   65  awk -F ',' '$1 == "Cameron"' tcpd_department.csv
+   66  history > tcpd_expert_officer.txt
+   67  cd ..
+   68  cd ex03
+   69  cd Murder_in_terminal_city
+   70  cat instructions
+   71  cd mystery
+   72  ls
+   73  cd crimescene
+   74  ls
+   75  cat crimescene
+   76  ls
+   77  grep CLUE crimescene
+   78  cd interviews
+   79  ls
+   80  cd ..
+   81  ls
+   82  cd streets
+   83  ls
+   84  cat wiggib_Street
+   85  cd ..
+   86  ls
+   87  cd memberships
+   88  ls
+   89  cd AAA
+   90  cat AAA
+   91  ls
+   92  grep Annabel AAA
+   93  grep Annabel Museum_of_Bash_History
+   94  grep Annabel Delta_SkyMiles
+   95  grep Annbel *
+   96  cd ..
+   97  ls
+   98  cd ..
+   99  ls
+  100  cat hint1
+  101  cd ..
+  102  ls
+  103  cd Murder_in_terminal_city
+  104  ls
+  105  cd mystery
+  106  ls
+  107  cd crimescene
+  108  cat hont1
+  109  cat hint1
+  110  ls
+  111  ls
+  112  cat crimescene
+  113  cat crimescene | grep CLUE
+  114  s
+  115  ls
+  116  cd people
+  117  cat people
+  118  grep M 
+  119  cat people | grep M
+  120  cat people | grep M > liste1.csv 
+  121  cd memberships
+  122  ls
+  123  cat AAA
+  124  cd ..
+  125  ls
+  126  cd interviews
+  127  ls
+  128  cd ..
+  129  cd streets
+  130  ls
+  131  cd ..
+  132  ls
+  133  cd memberships
+  134  cat AAA
+  135  ls
+  136  cd Desktop
+  137  ls
+  138  cd Days00-master
+  139  ls
+  140  cd ex01
+  141  ls
+  142  cd bonjours.sh
+  143  ./bonjours.sh
+  144  cd ..
+  145  ls
+  146  cd ex02
+  147  ls
+  148  cd midLS
+  149  cat midLS
+  150  cd ..
+  151  ls
+  152  cd ex03
+  153  ls
+  154  ./git_commit.sh
+  155  cat git_commit.sh
+  156  cd git_commit.sh
+  157  cd ..
+  158  cd ex04
+  159  ls
+  160  ./print_group.sh
+  161  cgmod +x print_group.sh
+  162  chmod +x print_group.sh
+  163  ./print_group.sh
+  164  cd ..
+  165  cd ex03
+  166  ls
+  167  chmod +x git_commit.sh
+  168  ./git_commit.sh
+  169  ./git_commit.sh
+  170  ./git_commit.sh
+  171  git log -5 --format=%H
+  172  cd ..
+  173  git log -5 --format=%H
+  174  cd Desktop
+  175  cd day\ 01
+  176  cd ex01
+  177  mkdir bd.class.php build.sh header.inc.php home.js index.js index.php install.txt \nreadme.txt style.css
+  178  cd ..
+  179  ls
+  180  cd ex00
+  181  ls
+  182  bash
+  183  cd Desktop
+  184  cd day\ 01
+  185  cd ex00
+  186  ls bd.class.php
+  187  ls *.php
+  188  ls ?e*
+  189  ls ?e*
+  190  $ ls ?e*
+  191  filter.sh
+  192  ./filter.sh
+  193  chmod +x filter.sh
+  194  ls
+  195  bash filter.sh
+  196  ls
+  197  mkdir filter.sh
+  198  cat >filter.sh
+  199  ls
+  200  cat filter.sh
+  201  ls *.php
+  202  cat > filter.sh
+  203  chmod +x filter.sh
+  204  cat filter.sh
+  205  cat >>  filter.sh
+  206  ./filter.sh
+  207  cd ..
+  208  cd ..
+  209  cd ..
+  210  ls
+  211  cd Documents
+  212  ls
+  213  cd GitHub
+  214  ls
+  215  cd day01
+  216  ls
+  217  mkdir ex01
+  218  ls
+  219  sudo apt install net-tools
+  220  sudo apt install net-tools
+  221  apt java
+  222  sudo apt install net-tools
+  223  sudo apt install net-tools
+  224  cat > MAC.
+  225  ls
+  226  ls
+  227  :cd sx01
+  228  :cd ex01
+  229  cd ex01
+  230  cat > MAC.sh
+  231  ifconfig
+  232  man ifconfig
+  233  ipconfig
+  234  ifconfig -a
+  235  grep -i 
+  236  grep -i Hwaddr
+  237  ifconfig | grep HW
+  238  ifconfig | grep HW | awk '/HWaddr/ {print $1, $5'
+  239  ifconfig | grep HW | awk '/HWaddr/ {print $1, $5'}
+  240  ifconfig | grep HW | awk '/HWaddr/ {print $1, $5}'
+  241  ifconfig | grep HW | awk '/HWaddr/ {print $1,$5}'
+  242  ifconfig | grep HW 
+  243  ifconfig | grep HW > MAC.sh
+  244  chmod +x MAC.sh
+  245  ./MAC.sh
+  246  cat MAC.sh
+  247  ip link show
+  248  cat adresse
+  249  cat address > ~/MAC.sh
+  250  cat address > ~/MAC.txt
+  251  cat address > ~/my-mac-address.txt
+  252  ifconfig hw
+  253  ifconfig 
+  254  man cut
+  255  ifconfig | cut
+  256  ifconfig | cut -b
+  257  ifconfig | cut -b 
+  258  ifconfig | cut -c list
+  259  ifconfig | cut -c list macaddress
+  260  ifconfig eth2
+  261  ifconfig eth01
+  262  ifconfig eth1
+  263  ifconfig eth
+  264  ifconfig
+  265  ifconfig ether
+  266  ifconfig -a
+  267  ifconfig ether
+  268  ifconfig lladdr
+  269  ifconfig show ether
+  270  ifconfig | greo ether
+  271  ifconfig | grep ether
+  272  ifconfig | grep ether > MAC.sh
+  273  ifconfig | grep ether| cut -d '' -f2 > MAC.sh
+  274  chmod +x MAC.sh
+  275  ./MAC.sh
+  276  ./MAC.sh
+  277  ./MAC.sh
+  278  ./MAC.sh
+  279  ./MAC.sh
+  280  ./MAC.sh
+  281  ifconfig | grep 'ether' | cut -d ' ' -f2 > MAC.sh
+  282  chmod +x MAC.sh
+  283  ./MAC.sh
+  284  cd ..
+  285  mkdir ex02
+  286  cd ex02
+  287  cat > fichier.txt
+  288  sed fichier.txt Elliot Tyrell
+  289  sed
+  290  sed s/motifElliot/motifTyrell/
+  291  sed s/Elliot/Tyrell/
+  292  sed s/Elliot/Tyrell/g
+  293  sed s/motifElliot/motifTyrell/g
+  294  sed s/motifElliot/motifTyrell/g fichier.txt
+  295  sed s/motifElliot/motifTyrell/g fichier.txt > fichier2.txt
+  296  sed s/Elliot/Tyrell/g fichier.txt > fichier2.txt
+  297  cd ..
+  298  mkdir ex03
+  299  cd ex03
+  300  mkdir "\?'*it_Akademy*'?\"\nls\nsadq\nsd\nqsd\nqsd\nq\ndq\nsd\nqd\nd\nqs\n
+  301  ls
+  302  cd Doc
+  303  cd Documents
+  304  :ls
+  305  ls
+  306  :cd GitHub
+  307  ls
+  308  cd GitHub
+  309  ls
+  310  :cd day01
+  311  :cd day01
+  312  cd day0
+  313  cd day01
+  314  cd ex03
+  315  ls
+  316  touch "\?'*it_Akademy*'?\"
+  317  touch \\\?\/'it_Akademy*'?\"
+  318  cd Documents
+  319  cd GitHub
+  320  CD DAY01
+  321  cd day01
+  322  cd ex0
+  323  3
+  324  cd ex03
+  325  touch \\\?\'\*\it_Akademy\*\'\?
+  326  touch \\\?\'\*\it_Akademy\*\'\?\\ntouch \\\?\'\*\it_Akademy\*\'\?\\\ntouch \\\?\'\*\it_Akademy\*\'\?\\\ntouch \\\?\'\*\it_Akademy\*\'\?\\ 
+  327  cd ..
+  328  mkdir ex04
+  329  mkdir \\\?\'\*\it_Akademy\*\'\?\\\nmkdir "\\\?\'\*\it_Akademy\*\'\?\\\"
+  330  shopt -s extglob
+  331  ls -lt
+  332  cd ex04
+  333  ls -lt
+  334  mkdir text0
+  335  mc text0 test0  
+  336  mv text0 test0  
+  337  mkdir test1 test3 test5
+  338  touch test2 test4
+  339  ls -lt
+  340  ls -lt
+  341  mkdir test0 test1
+  342  touch test2
+  343  mkdir test3
+  344  touch test4
+  345  mkdir test5
+  346  ls -lt
+  347  mkdir 775 test0
+  348  chmod 775 test0
+  349  ls -lt
+  350  mdkir test1
+  351  mdkir test1
+  352  mkdir test1
+  353  chmod 744 test1
+  354  ls -lt
+  355  touch test2
+  356  chmod 775
+  357  chmod 775 test2
+  358  ls -lt
+  359  touch test2
+  360  chmod 664 test2
+  361  ls -lt
+  362  mkdir test3
+  363  chmod 775
+  364  chmod 775 test3
+  365  ls -lt
+  366  ls -l
+  367  touch test4
+  368  chmod 664
+  369  chmod 664 test4
+  370  ls -l
+  371  mkdir test5
+  372  chmod 111 test5
+  373  ls -l
+  374  touch -t 207701010000 test0
+  375  :ls -l
+  376  :ls -l
+  377  :ls -t
+  378  :ls -t
+  379  ls
+  380  ls -l
+  381  touch -t 207701010000 test1
+  382  touch -t 207701010000 test2
+  383  touch -t 207701010000 test3
+  384  touch -t 207701010000 test4
+  385  touch -t 207701010000 test5
+  386  ls -l
+  387  cd ..
+  388  cd ..
+  389  cd day00
+  390  cd ex01
+  391  ./bonjour.sh
+  392  cd ex01
+  393  cd ..
+  394  cd ex3
+  395  cd ex03
+  396  ls
+  397  ./git_commit.sh
+  398  cd Documents
+  399  cd GitHub
+  400  cd day00
+  401  cd ..
+  402  cd day021
+  403  cd day01
+  404  cd ex04
+  405  history > histo.txt
