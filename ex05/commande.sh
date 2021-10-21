@@ -1,0 +1,1 @@
+ls ; date ; who > resultat.txt

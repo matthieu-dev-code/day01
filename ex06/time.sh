@@ -1,1 +1,2 @@
-nous sommes le Mer. 20 oct. 2021 09:30:15 CEST
+date=$(date +%a\ %d\ %b\ %Y\ %H\:%M\:%S\ %Z)
+echo "Nous sommes le $date"
